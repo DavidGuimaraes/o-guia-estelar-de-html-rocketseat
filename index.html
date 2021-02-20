@@ -1,18 +1,36 @@
 <!--
-    Anatomia das tags
+    Atributos HTML
 
-    - Abertura da tag
-    - Fechamento da tag
-    - Conteúdo
-    - Elementos
+    - Informações extras
+    - Configurações
 -->
 
-<h1>
-    O Título
-</h1>
+<img src="imagem.png" alt="imagem">
 
-<!-- Elementos vazios -->
-<img src="" alt="">
-<br>
-<hr>
-<input type="text">
+
+<!--
+    Atributos booleanos
+
+    - Não precisam de conteúdo
+    - disabled na tag input, por exemplo
+-->
+
+
+<input type="text" name="" id="" disabled>
+
+<!--
+    Aspas
+
+    - Omissão
+    - Simples
+    - Duplas
+-->
+
+<!-- poderia dar problema, é possível mas não recomendado -->
+<a href=http://google.com target=""></a>
+
+<!-- Aspas simples podem causar problemas também
+<a href='' target='Isn't></a> -->
+
+Utilizar aspas duplas é a melhor prática
+<a href=""></a>
